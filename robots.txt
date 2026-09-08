@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Content-Signal: search=yes, ai-input=yes
+
+Sitemap: https://ru.catchall.in/sitemap.xml
