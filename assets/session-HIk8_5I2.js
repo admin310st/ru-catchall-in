@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./api-BemPL6Am.js";async function n(){return t(`/v1/account`)}async function r(){try{return await t(`/v1/account`,{noRedirect:!0})}catch{return null}}async function i(){try{await e(`POST`,`/v1/auth/logout`,{},{retry:!1})}finally{location.replace(`/`)}}export{r as n,n as r,i as t};
