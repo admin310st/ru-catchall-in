@@ -1,0 +1,1 @@
+import{n as e}from"./session-ByEuWM2c.js";import{t}from"./boot-elxih13V.js";import{i as n,r}from"./turnstile-BO2cxIoC.js";import{t as i}from"./contact-form-yh93opXF.js";t(),r(),i(),document.querySelector(`[data-panel-link]`)&&e().then(e=>{if(n(e!==null),e)for(let e of document.querySelectorAll(`[data-plan-cta]`))e.href=`/domains`});

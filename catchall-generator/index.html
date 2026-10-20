@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Генератор почты на catch-all домене: список адресов</title>
+  <meta name="description" content="Бесплатный генератор email-адресов для catch-all домена: до 5000 уникальных адресов по шаблону. Скопируйте список или скачайте TXT и CSV.">
+  <link rel="canonical" href="https://ru.catchall.in/catchall-generator/">
+  <link rel="alternate" hreflang="x-default" href="https://catchall.in/catchall-generator">
+  <link rel="alternate" hreflang="en" href="https://catchall.in/catchall-generator">
+  <link rel="alternate" hreflang="ru" href="https://ru.catchall.in/catchall-generator/">
+  <link rel="alternate" hreflang="es" href="https://catchall.in/es/catchall-generator">
+  <link rel="alternate" hreflang="pt-BR" href="https://catchall.in/pt/catchall-generator">
+  <link rel="alternate" hreflang="tr" href="https://catchall.in/tr/catchall-generator">
+  <meta property="og:site_name" content="Catchall">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ru.catchall.in/catchall-generator/">
+  <meta property="og:title" content="Генератор почты на catch-all домене: список адресов">
+  <meta property="og:description" content="Бесплатный генератор email-адресов для catch-all домена: до 5000 уникальных адресов по шаблону. Скопируйте список или скачайте TXT и CSV.">
+  <meta property="og:image" content="https://ru.catchall.in/og/ru/catchall-generator.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <meta name="theme-color" content="#0B0D12">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-zYDd12iFR72ogcPaOUfgF4iAfon8//iLSy+WFwXr9v0='; style-src 'self'; img-src 'self' data:; connect-src 'self'; form-action 'none'; base-uri 'none'">
+  <script>try{var t=localStorage.getItem("theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+  <link rel="stylesheet" href="/assets/boot-BgLsKgAj.css">
+  <script type="application/ld+json">[
+{"@context":"https://schema.org","@type":"Organization","@id":"https://ru.catchall.in/#org","name":"Catchall","legalName":"301ST Ltd","url":"https://ru.catchall.in","logo":"https://ru.catchall.in/apple-touch-icon.png","address":{"@type":"PostalAddress","addressLocality":"London","addressCountry":"GB"}},
+{"@context":"https://schema.org","@type":"WebSite","@id":"https://ru.catchall.in/#site","name":"Catchall","url":"https://ru.catchall.in","inLanguage":"ru","publisher":{"@id":"https://ru.catchall.in/#org"}},
+{"@context":"https://schema.org","@type":"WebApplication","name":"Генератор адресов для catch-all почты","url":"https://ru.catchall.in/catchall-generator/","applicationCategory":"UtilitiesApplication","operatingSystem":"Any","browserRequirements":"Requires JavaScript","inLanguage":"ru","isAccessibleForFree":true,"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"publisher":{"@id":"https://ru.catchall.in/#org"}},
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Уходит ли что-нибудь на сервер?","acceptedAnswer":{"@type":"Answer","text":"Нет. Список собирает скрипт в вашем браузере, на наши серверы ничего не отправляется. Только ссылка на playground, если по ней перейти, открывает шаблон, переменные и домен на spintax.net."}},{"@type":"Question","name":"Сколько адресов можно сгенерировать?","acceptedAnswer":{"@type":"Answer","text":"До 5000 за раз. Если у шаблона меньше сочетаний, генератор остановится и напишет, сколько уникальных адресов нашёл."}},{"@type":"Question","name":"Какой синтаксис у шаблона?","acceptedAnswer":{"@type":"Answer","text":"Spintax, как на spintax.net: {a|b|c} выбирает один вариант, %name% подставляет переменную, заданную через #set, и при каждом использовании переменная выбирает заново. Ссылка на playground открывает ваш шаблон там для проверки. Полный синтаксис — в справочнике расширенного spintax; длинные шаблоны удобнее писать в Spintax Studio, настольном редакторе для Windows."}},{"@type":"Question","name":"Можно ли сгенерировать адреса Gmail или Outlook?","acceptedAnswer":{"@type":"Answer","text":"Нет. Придуманный адрес на gmail.com либо чей-то, либо не существует. Сгенерированный список принимает почту только на вашем домене с catch-all приёмом."}},{"@type":"Question","name":"Как получать почту на эти адреса?","acceptedAnswer":{"@type":"Answer","text":"Направьте домен на catch-all ящик. В Catchall ящик живёт на субдомене вашего домена, любой адрес там попадает в него, а читать его можно по POP3S или IMAPS."}}]}
+]</script>
+</head>
+<body>
+  <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="/" aria-label="Catchall"><span class="icon" data-icon="brand/logo-mark"></span></a>
+        <button type="button" class="btn-icon burger-button" data-mobile-menu-toggle data-icon="mono/menu" aria-expanded="false" aria-label="Меню"></button>
+        <nav class="primary-nav" aria-label="Catchall"><a href="/">Главная</a><a href="/pricing/">Цены</a><a href="/how-it-works/">Как это работает</a><a href="/for-seo-tools/">Для SEO-софта</a><a href="/faq/">Вопросы</a><a href="/contact/">Связаться</a></nav>
+        <div class="header-actions">
+          
+          <a class="btn-icon" href="https://t.me/allinmailbot" rel="noopener" data-icon="mono/telegram" aria-label="Catchall в Telegram" title="Catchall в Telegram"></a>
+          <div class="dropdown lang-switcher" data-dropdown>
+          <button type="button" class="btn-chip dropdown__trigger" aria-expanded="false" aria-label="Язык">
+            <span class="btn-chip__label" lang="ru">Русский</span>
+            <span class="btn-chip__chevron icon" data-icon="mono/chevron-down"></span>
+          </button>
+          <div class="dropdown__menu"><a class="lang-switcher__item" href="https://catchall.in/catchall-generator" hreflang="en" lang="en">English</a><a class="lang-switcher__item is-active" href="/catchall-generator/" hreflang="ru" lang="ru" aria-current="true">Русский</a><a class="lang-switcher__item" href="https://catchall.in/es/catchall-generator" hreflang="es" lang="es">Español</a><a class="lang-switcher__item" href="https://catchall.in/pt/catchall-generator" hreflang="pt-BR" lang="pt-BR">Português</a><a class="lang-switcher__item" href="https://catchall.in/tr/catchall-generator" hreflang="tr" lang="tr">Türkçe</a></div>
+        </div>
+          <button type="button" class="btn-icon" data-theme-toggle data-icon="mono/sun" data-label-light="Переключить на светлую тему" data-label-dark="Переключить на тёмную тему" aria-label="Переключить на тёмную тему"></button>
+        </div>
+      </div>
+    </header>
+
+  <div class="container">
+    <main>
+    <section class="hero">
+      <h1>Генератор адресов для catch-all почты</h1>
+      <p>Введите субдомен, который принимает всю почту, выберите вид адресов и получите список уникальных адресов для своего софта. Список собирается в вашем браузере.</p>
+    </section>
+    <section class="card" id="gen" data-strings="{&quot;total&quot;:&quot;Адресов: {n}&quot;,&quot;rejected&quot;:&quot;Пропущено строк: {n}. До @ допустимы только a-z, 0-9 и . _ + -, не длиннее 64 символов.&quot;,&quot;exhausted&quot;:&quot;Найдено уникальных адресов до предела попыток: {n}. Добавьте варианты или переменные либо сгенерируйте ещё раз.&quot;,&quot;hostErr&quot;:&quot;Введите имя домена, например mail.example.com.&quot;,&quot;tplErr&quot;:&quot;Ошибка в шаблоне: {msg} (строка {line}).&quot;,&quot;varsErr&quot;:&quot;Ошибка в переменных: {msg} (строка {line}).&quot;,&quot;rawOnly&quot;:&quot;В тексте есть строки, которых нет в редакторе строк, например «{line}». Правьте их в режиме «Текст» или сначала удалите.&quot;,&quot;copied&quot;:&quot;Скопировано&quot;,&quot;copyFailed&quot;:&quot;Не скопировалось: выделите список и скопируйте вручную.&quot;}">
+      <div class="gen__grid">
+        <div class="gen__input">
+          <div class="field" id="gen-host-field">
+            <label for="gen-host">Catch-all домен или субдомен</label>
+            <input id="gen-host" type="text" inputmode="url" autocomplete="off" autocapitalize="off" spellcheck="false" value="mail.example.com">
+            <p class="field__hint">Им заканчивается каждый адрес списка. Домен должен принимать почту на любой адрес.</p>
+          </div>
+          <div class="field">
+            <span class="field__label" id="gen-preset-label">Вид адресов</span>
+            <div class="radios" role="radiogroup" aria-labelledby="gen-preset-label"><label><input type="radio" name="gen-preset" value="names" checked> имя.фамилия</label><label><input type="radio" name="gen-preset" value="year"> имя + год</label><label><input type="radio" name="gen-preset" value="words"> слова</label><label><input type="radio" name="gen-preset" value="chars"> случайные</label></div>
+          </div>
+          <div class="field">
+            <label for="gen-tpl">Шаблон (часть до @)</label>
+            <textarea id="gen-tpl" rows="3" spellcheck="false">{%first%.%last%|%first%_%last%|%first%%last%|%last%.%first%}{|%d%%d%|%d%%d%%d%}</textarea>
+            <p class="field__hint">Spintax: {a|b} выбирает один вариант, %name% берёт переменную из списка ниже. <a href="https://ru.spintax.net/docs/syntax/" target="_blank" rel="noopener">Синтаксис расширенного spintax</a></p>
+          </div>
+          <div class="field gen__vars">
+            <div class="row row--between gen__vars-head">
+              <span class="field__label" id="gen-vars-label">Переменные</span>
+              <div class="gen__mode" role="group" aria-labelledby="gen-vars-label">
+                <button type="button" class="btn btn--sm" id="gen-mode-rows" aria-pressed="true">Строки</button>
+                <button type="button" class="btn btn--sm" id="gen-mode-raw" aria-pressed="false">Текст</button>
+              </div>
+            </div>
+            <div id="gen-rows" class="gen__rows">
+              <div class="gen__row">
+                <select class="gen__dir" aria-label="Вид"><option value="set" selected>#set</option><option value="def">#def</option></select>
+                <input class="gen__name" type="text" spellcheck="false" autocomplete="off" aria-label="Имя" placeholder="Имя" value="first">
+                <input class="gen__value" type="text" spellcheck="false" autocomplete="off" aria-label="Значение" placeholder="{a|b|c}" value="{james|john|robert|michael|william|david|richard|joseph|thomas|charles|daniel|matthew|anthony|mark|steven|paul|andrew|joshua|kevin|brian|george|timothy|ryan|jacob|gary|nicholas|eric|jonathan|stephen|larry|justin|scott|brandon|benjamin|samuel|gregory|alexander|patrick|frank|jack|dennis|tyler|aaron|adam|nathan|henry|peter|zachary|kyle|noah|mary|patricia|jennifer|linda|elizabeth|barbara|susan|jessica|sarah|karen|lisa|nancy|betty|sandra|margaret|ashley|kimberly|emily|donna|michelle|carol|amanda|melissa|deborah|stephanie|rebecca|sharon|laura|cynthia|amy|kathleen|angela|anna|brenda|pamela|emma|nicole|helen|samantha|katherine|christine|rachel|carolyn|janet|maria|olivia|heather|julia|sophia|grace}">
+                <button type="button" class="btn-icon btn-icon--sm gen__del" data-icon="mono/close" aria-label="Удалить переменную" title="Удалить переменную"></button>
+              </div>
+              <div class="gen__row">
+                <select class="gen__dir" aria-label="Вид"><option value="set" selected>#set</option><option value="def">#def</option></select>
+                <input class="gen__name" type="text" spellcheck="false" autocomplete="off" aria-label="Имя" placeholder="Имя" value="last">
+                <input class="gen__value" type="text" spellcheck="false" autocomplete="off" aria-label="Значение" placeholder="{a|b|c}" value="{smith|johnson|williams|brown|jones|garcia|miller|davis|rodriguez|martinez|hernandez|lopez|gonzalez|wilson|anderson|thomas|taylor|moore|jackson|martin|lee|perez|thompson|white|harris|sanchez|clark|ramirez|lewis|robinson|walker|young|allen|king|wright|scott|torres|nguyen|hill|flores|green|adams|nelson|baker|hall|rivera|campbell|mitchell|carter|roberts|gomez|phillips|evans|turner|diaz|parker|cruz|edwards|collins|reyes|stewart|morris|morales|murphy|cook|rogers|gutierrez|ortiz|morgan|cooper|peterson|bailey|reed|kelly|howard|ramos|kim|cox|ward|richardson|watson|brooks|chavez|wood|james|bennett|gray|mendoza|ruiz|hughes|price|alvarez|castillo|sanders|patel|myers|long|ross|foster|jimenez}">
+                <button type="button" class="btn-icon btn-icon--sm gen__del" data-icon="mono/close" aria-label="Удалить переменную" title="Удалить переменную"></button>
+              </div>
+              <div class="gen__row">
+                <select class="gen__dir" aria-label="Вид"><option value="set" selected>#set</option><option value="def">#def</option></select>
+                <input class="gen__name" type="text" spellcheck="false" autocomplete="off" aria-label="Имя" placeholder="Имя" value="d">
+                <input class="gen__value" type="text" spellcheck="false" autocomplete="off" aria-label="Значение" placeholder="{a|b|c}" value="{0|1|2|3|4|5|6|7|8|9}">
+                <button type="button" class="btn-icon btn-icon--sm gen__del" data-icon="mono/close" aria-label="Удалить переменную" title="Удалить переменную"></button>
+              </div>
+            </div>
+            <button type="button" class="btn btn--sm btn--ghost" id="gen-add"><span class="icon" data-icon="mono/plus" aria-hidden="true"></span>Добавить переменную</button>
+            <textarea id="gen-vars" rows="6" spellcheck="false" aria-labelledby="gen-vars-label" hidden>#set %first% = {james|john|robert|michael|william|david|richard|joseph|thomas|charles|daniel|matthew|anthony|mark|steven|paul|andrew|joshua|kevin|brian|george|timothy|ryan|jacob|gary|nicholas|eric|jonathan|stephen|larry|justin|scott|brandon|benjamin|samuel|gregory|alexander|patrick|frank|jack|dennis|tyler|aaron|adam|nathan|henry|peter|zachary|kyle|noah|mary|patricia|jennifer|linda|elizabeth|barbara|susan|jessica|sarah|karen|lisa|nancy|betty|sandra|margaret|ashley|kimberly|emily|donna|michelle|carol|amanda|melissa|deborah|stephanie|rebecca|sharon|laura|cynthia|amy|kathleen|angela|anna|brenda|pamela|emma|nicole|helen|samantha|katherine|christine|rachel|carolyn|janet|maria|olivia|heather|julia|sophia|grace}
+#set %last% = {smith|johnson|williams|brown|jones|garcia|miller|davis|rodriguez|martinez|hernandez|lopez|gonzalez|wilson|anderson|thomas|taylor|moore|jackson|martin|lee|perez|thompson|white|harris|sanchez|clark|ramirez|lewis|robinson|walker|young|allen|king|wright|scott|torres|nguyen|hill|flores|green|adams|nelson|baker|hall|rivera|campbell|mitchell|carter|roberts|gomez|phillips|evans|turner|diaz|parker|cruz|edwards|collins|reyes|stewart|morris|morales|murphy|cook|rogers|gutierrez|ortiz|morgan|cooper|peterson|bailey|reed|kelly|howard|ramos|kim|cox|ward|richardson|watson|brooks|chavez|wood|james|bennett|gray|mendoza|ruiz|hughes|price|alvarez|castillo|sanders|patel|myers|long|ross|foster|jimenez}
+#set %d% = {0|1|2|3|4|5|6|7|8|9}</textarea>
+            <p class="field__hint">Переменные подставляются по ссылкам %name% в шаблоне. #set выбирает заново при каждой ссылке, #def выбирает один раз и держит.</p>
+            <template id="gen-row-template">
+              <div class="gen__row">
+                <select class="gen__dir" aria-label="Вид"><option value="set" selected>#set</option><option value="def">#def</option></select>
+                <input class="gen__name" type="text" spellcheck="false" autocomplete="off" aria-label="Имя" placeholder="Имя" value="">
+                <input class="gen__value" type="text" spellcheck="false" autocomplete="off" aria-label="Значение" placeholder="{a|b|c}" value="">
+                <button type="button" class="btn-icon btn-icon--sm gen__del" data-icon="mono/close" aria-label="Удалить переменную" title="Удалить переменную"></button>
+              </div>
+            </template>
+          </div>
+          <div class="gen__opts">
+            <div class="field gen__count">
+              <label for="gen-count">Сколько</label>
+              <input id="gen-count" type="number" min="1" max="5000" step="1" value="100">
+            </div>
+            <label class="gen__check"><input id="gen-unique" type="checkbox" checked> Только уникальные</label>
+          </div>
+          <div class="actions">
+            <button type="button" class="btn btn--primary" id="gen-run">Сгенерировать</button>
+            <a class="btn btn--ghost" id="gen-play" href="https://ru.spintax.net/play/?t=eyVmaXJzdCUuJWxhc3QlfCVmaXJzdCVfJWxhc3QlfCVmaXJzdCUlbGFzdCV8JWxhc3QlLiVmaXJzdCV9e3wlZCUlZCV8JWQlJWQlJWQlfUAlZG9tYWluJQ&amp;v=I3NldCAlZmlyc3QlID0ge2phbWVzfGpvaG58cm9iZXJ0fG1pY2hhZWx8d2lsbGlhbXxkYXZpZHxyaWNoYXJkfGpvc2VwaHx0aG9tYXN8Y2hhcmxlc3xkYW5pZWx8bWF0dGhld3xhbnRob255fG1hcmt8c3RldmVufHBhdWx8YW5kcmV3fGpvc2h1YXxrZXZpbnxicmlhbnxnZW9yZ2V8dGltb3RoeXxyeWFufGphY29ifGdhcnl8bmljaG9sYXN8ZXJpY3xqb25hdGhhbnxzdGVwaGVufGxhcnJ5fGp1c3RpbnxzY290dHxicmFuZG9ufGJlbmphbWlufHNhbXVlbHxncmVnb3J5fGFsZXhhbmRlcnxwYXRyaWNrfGZyYW5rfGphY2t8ZGVubmlzfHR5bGVyfGFhcm9ufGFkYW18bmF0aGFufGhlbnJ5fHBldGVyfHphY2hhcnl8a3lsZXxub2FofG1hcnl8cGF0cmljaWF8amVubmlmZXJ8bGluZGF8ZWxpemFiZXRofGJhcmJhcmF8c3VzYW58amVzc2ljYXxzYXJhaHxrYXJlbnxsaXNhfG5hbmN5fGJldHR5fHNhbmRyYXxtYXJnYXJldHxhc2hsZXl8a2ltYmVybHl8ZW1pbHl8ZG9ubmF8bWljaGVsbGV8Y2Fyb2x8YW1hbmRhfG1lbGlzc2F8ZGVib3JhaHxzdGVwaGFuaWV8cmViZWNjYXxzaGFyb258bGF1cmF8Y3ludGhpYXxhbXl8a2F0aGxlZW58YW5nZWxhfGFubmF8YnJlbmRhfHBhbWVsYXxlbW1hfG5pY29sZXxoZWxlbnxzYW1hbnRoYXxrYXRoZXJpbmV8Y2hyaXN0aW5lfHJhY2hlbHxjYXJvbHlufGphbmV0fG1hcmlhfG9saXZpYXxoZWF0aGVyfGp1bGlhfHNvcGhpYXxncmFjZX0KI3NldCAlbGFzdCUgPSB7c21pdGh8am9obnNvbnx3aWxsaWFtc3xicm93bnxqb25lc3xnYXJjaWF8bWlsbGVyfGRhdmlzfHJvZHJpZ3VlenxtYXJ0aW5lenxoZXJuYW5kZXp8bG9wZXp8Z29uemFsZXp8d2lsc29ufGFuZGVyc29ufHRob21hc3x0YXlsb3J8bW9vcmV8amFja3NvbnxtYXJ0aW58bGVlfHBlcmV6fHRob21wc29ufHdoaXRlfGhhcnJpc3xzYW5jaGV6fGNsYXJrfHJhbWlyZXp8bGV3aXN8cm9iaW5zb258d2Fsa2VyfHlvdW5nfGFsbGVufGtpbmd8d3JpZ2h0fHNjb3R0fHRvcnJlc3xuZ3V5ZW58aGlsbHxmbG9yZXN8Z3JlZW58YWRhbXN8bmVsc29ufGJha2VyfGhhbGx8cml2ZXJhfGNhbXBiZWxsfG1pdGNoZWxsfGNhcnRlcnxyb2JlcnRzfGdvbWV6fHBoaWxsaXBzfGV2YW5zfHR1cm5lcnxkaWF6fHBhcmtlcnxjcnV6fGVkd2FyZHN8Y29sbGluc3xyZXllc3xzdGV3YXJ0fG1vcnJpc3xtb3JhbGVzfG11cnBoeXxjb29rfHJvZ2Vyc3xndXRpZXJyZXp8b3J0aXp8bW9yZ2FufGNvb3BlcnxwZXRlcnNvbnxiYWlsZXl8cmVlZHxrZWxseXxob3dhcmR8cmFtb3N8a2ltfGNveHx3YXJkfHJpY2hhcmRzb258d2F0c29ufGJyb29rc3xjaGF2ZXp8d29vZHxqYW1lc3xiZW5uZXR0fGdyYXl8bWVuZG96YXxydWl6fGh1Z2hlc3xwcmljZXxhbHZhcmV6fGNhc3RpbGxvfHNhbmRlcnN8cGF0ZWx8bXllcnN8bG9uZ3xyb3NzfGZvc3RlcnxqaW1lbmV6fQojc2V0ICVkJSA9IHswfDF8MnwzfDR8NXw2fDd8OHw5fQojZGVmICVkb21haW4lID0gbWFpbC5leGFtcGxlLmNvbQ&amp;pp=0&amp;n=20" data-base="https://ru.spintax.net/play/" target="_blank" rel="noopener"><span class="icon" data-icon="mono/open-in-new" aria-hidden="true"></span>Править в Spintax playground</a>
+          </div>
+          <p class="msg" id="gen-msg" role="status"></p>
+        </div>
+        <div class="gen__output">
+          <div class="row row--between gen__bar">
+            <label class="field__label" for="gen-out" id="gen-total" aria-live="polite">Адреса</label>
+            <div class="row">
+              <button type="button" class="btn btn--sm" id="gen-copy"><span class="icon" data-icon="mono/copy" aria-hidden="true"></span>Копировать</button>
+              <button type="button" class="btn btn--sm" id="gen-txt">.txt</button>
+              <button type="button" class="btn btn--sm" id="gen-csv">.csv</button>
+            </div>
+          </div>
+          <div class="field">
+            <textarea id="gen-out" class="gen__out" readonly spellcheck="false" wrap="off"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="card card--muted">
+      <h2>Почему списку нужен catch-all домен</h2>
+      <p>Catch-all домен принимает почту на любой адрес, поэтому придуманный адрес работает с первого письма: заранее ничего создавать не нужно. На домене без catch-all таких адресов нет, и письма на них возвращаются отправителю.</p>
+    </section>
+    <section class="card card--muted">
+      <h2>Catch-all домена ещё нет?</h2>
+      <p>Catchall держит catch-all ящик на субдомене вашего домена. В зону добавляются только MX-записи; с токеном Cloudflare или ключом Namecheap это занимает около минуты. Все адреса из списка попадают в один ящик, а софт забирает почту по POP3S или IMAPS. Первый домен стоит $10 за 30 суток, каждый следующий — $3, будь то Standard с одним ящиком или Pro с пятью.</p>
+      <div class="actions"><a class="btn btn--primary" href="https://catchall.in/#register">Подключить домен</a></div>
+    </section>
+    <section class="card card--muted">
+      <h2>Для чего</h2>
+      <p>Регистрации из своего софта, проверка форм регистрации и приветственных писем, отдельный адрес под каждый сервис, чтобы видеть, кто его слил. Используйте генератор на домене, которым управляете, и соблюдайте правила сайтов, где регистрируетесь.</p>
+      <p><a href="/aup/">Правила использования</a></p>
+    </section>
+    <section class="card card--muted">
+      <h2>Вопросы</h2>
+      <div class="faq">
+        <div class="faq__item">
+          <h2>Уходит ли что-нибудь на сервер?</h2>
+          <p>Нет. Список собирает скрипт в вашем браузере, на наши серверы ничего не отправляется. Только ссылка на playground, если по ней перейти, открывает шаблон, переменные и домен на spintax.net.</p>
+        </div>
+        <div class="faq__item">
+          <h2>Сколько адресов можно сгенерировать?</h2>
+          <p>До 5000 за раз. Если у шаблона меньше сочетаний, генератор остановится и напишет, сколько уникальных адресов нашёл.</p>
+        </div>
+        <div class="faq__item">
+          <h2>Какой синтаксис у шаблона?</h2>
+          <p>Spintax, как на spintax.net: {a|b|c} выбирает один вариант, %name% подставляет переменную, заданную через #set, и при каждом использовании переменная выбирает заново. Ссылка на playground открывает ваш шаблон там для проверки. Полный синтаксис — в справочнике расширенного spintax; длинные шаблоны удобнее писать в Spintax Studio, настольном редакторе для Windows.</p>
+          <p class="faq__links"><a href="https://ru.spintax.net/docs/syntax/" target="_blank" rel="noopener">Синтаксис расширенного spintax</a> · <a href="https://spintax.studio/" target="_blank" rel="noopener">Spintax Studio: редактор для Windows (на английском)</a></p>
+        </div>
+        <div class="faq__item">
+          <h2>Можно ли сгенерировать адреса Gmail или Outlook?</h2>
+          <p>Нет. Придуманный адрес на gmail.com либо чей-то, либо не существует. Сгенерированный список принимает почту только на вашем домене с catch-all приёмом.</p>
+        </div>
+        <div class="faq__item">
+          <h2>Как получать почту на эти адреса?</h2>
+          <p>Направьте домен на catch-all ящик. В Catchall ящик живёт на субдомене вашего домена, любой адрес там попадает в него, а читать его можно по POP3S или IMAPS.</p>
+        </div>
+      </div>
+    </section>
+
+    </main>
+<footer class="foot"><a class="foot__brand" href="https://301.st" rel="noopener" aria-label="301ST Ltd, Лондон" title="301ST Ltd, Лондон"><span class="icon" data-icon="brand/301" aria-hidden="true"></span></a><a href="/catchall-generator/">Генератор адресов</a><a href="/partners/">Партнёрам</a><a href="/telegram/">Бот в Telegram</a><a href="/contact/">Связаться</a><a href="/terms/">Условия</a><a href="/aup/">Правила использования</a><a href="/privacy/">Конфиденциальность</a><a href="https://catchall.in/api" hreflang="en" lang="en">API</a><a href="https://catchall.in/agents" hreflang="en" lang="en">ИИ-агентам</a><span class="foot__tag">Ловим всё. Идём ва-банк. Не сбрасываем.</span></footer>
+  </div>
+  <script type="module" src="/assets/generator-4Fx_feiQ.js"></script>
+</body>
+</html>
